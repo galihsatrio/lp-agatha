@@ -1,3 +1,10 @@
+:root {
+    --primary: #001233;
+    --secondary: #001233da;
+    --cream: #efe0ca;
+    --red: #ff595a;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,61 +21,80 @@ html {
 }
 
 .bg-primary {
-    background: #001233 !important;
+    background: var(--primary) !important;
 }
 
 .bg-cream {
-    background: #efe0ca !important;
+    background: var(--cream) !important;
 }
 
 .text-primary {
-    color: #001233 !important;
+    color: var(--primary) !important;
 }
 
 .text-red {
-    color: #ff595a !important;
+    color: var(--red) !important;
 }
 
 .text-cream {
-    color: #efe0ca !important;
+    color: var(--cream) !important;
 }
 
 .font-geo {
     font-family: "Geologica" !important;
 }
 
+.btn-primary {
+    background: var(--primary);
+    color: var(--cream);
+    font-family: "Geologica";
+    border: var(--primary) 1px solid;
+    padding: 12px 20px;
+}
+
+.btn-primary:hover {
+    background: var(--primary);
+    color: var(--red);
+    font-family: "Geologica";
+    border: var(--secondary) 1px solid;
+    padding: 12px 20px;
+}
+
 nav .navbar-brand {
     font-size: 26px;
-    color: #ff595a !important;
+    color: var(--red) !important;
     font-weight: 800;
 }
 
 .nav-link {
-    color: #efe0ca;
+    color: var(--cream);
     font-weight: 700 !important;
     font-size: 14px;
 }
 
 .nav-link:hover {
-    color: #ff595a;
+    color: var(--red);
 }
 
 .navbar a.active {
-    color: #ff595a !important;
-  }
+    color: var(--red) !important;
+}
 
 .slider .wrap-slider {
-    height: 60vh;
+    height: 100vh;
+    @media only screen and (max-width: 768px) {
+        height: 60vh;
+    }
 }
 
 .slider .wrap-content {
-    background: #001233;
+    background: var(--primary);
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .slider .wrap-content .text-content {
-    color: #ff595a;
+    color: var(--red);
     font-weight: 900;
     font-family: "Geologica" !important;
 
@@ -128,7 +154,7 @@ nav .navbar-brand {
 
 .about .text-about {
     font-weight: 800;
-    color: #001233 !important;
+    color: var(--primary) !important;
     font-family: "Geologica" !important;
 
     @media only screen and (max-width: 768px) {
@@ -137,7 +163,7 @@ nav .navbar-brand {
 }
 
 .about .text-detail {
-    color: #001233 !important;
+    color: var(--primary) !important;
 
     @media only screen and (max-width: 768px) {
         font-size: 14px !important;
@@ -145,7 +171,7 @@ nav .navbar-brand {
 }
 
 .products-jembatan {
-    background: #001233;
+    background:var(--primary);
 }
 
 .products-jembatan img {
@@ -158,7 +184,7 @@ nav .navbar-brand {
 
 .products-jembatan .text-jembatan {
     font-weight: 800;
-    color: #ff595a;
+    color: var(--red);
     font-family: "Geologica" !important;
 
     @media only screen and (max-width: 768px) {
@@ -174,7 +200,7 @@ nav .navbar-brand {
 .color .text-color {
     font-weight: 600;
     font-size: 20px;
-    color: #ff595a !important;
+    color: var(--red) !important;
     font-family: "Geologica" !important;
 }
 
@@ -221,7 +247,7 @@ nav .navbar-brand {
 .contact .title-content {
     font-weight: 800;
     font-size: 28px;
-    color: #ff595a !important;
+    color: var(--red) !important;
     font-family: "Geologica" !important;
 
     @media only screen and (max-width: 768px) {
@@ -230,7 +256,7 @@ nav .navbar-brand {
 }
 
 .contact .text-content {
-    color: #efe0ca;
+    color: var(--cream);
 
     @media only screen and (max-width: 768px) {
         font-size: 14px !important;
