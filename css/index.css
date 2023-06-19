@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-primary {
+    background: #001233 !important;
+}
+
+.bg-cream {
+    background: #efe0ca !important;
+}
+
+.text-primary {
+    color: #001233 !important;
+}
+
+.text-red {
+    color: #ff595a !important;
+}
+
+.text-cream {
+    color: #efe0ca !important;
+}
+
+.font-geo {
+    font-family: "Geologica" !important;
+}
+
+nav .navbar-brand {
+    font-size: 26px;
+    color: #ff595a !important;
+    font-weight: 800;
+}
+
+.nav-link {
+    color: #efe0ca;
+    font-weight: 700 !important;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #ff595a;
+}
+
+.navbar a.active {
+    color: #ff595a !important;
+  }
+
+.slider .wrap-slider {
+    height: 60vh;
+}
+
+.slider .wrap-content {
+    background: #001233;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.slider .wrap-content .text-content {
+    color: #ff595a;
+    font-weight: 900;
+    font-family: "Geologica" !important;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 26px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .slider p {
+        font-size: 14px;
+    }
+}
+
+.slider img {
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.swiper-slide .bg-gradient {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgba(19,125,146,1) 100%);
+}
+
+.about {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about .text-about {
+    font-weight: 800;
+    color: #001233 !important;
+    font-family: "Geologica" !important;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 26px !important;
+    }
+}
+
+.about .text-detail {
+    color: #001233 !important;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 14px !important;
+    }
+}
+
+.products-jembatan {
+    background: #001233;
+}
+
+.products-jembatan img {
+    width: 100%;
+    height: 100%;
+    max-width: 927px;
+    max-height: 695px;
+    object-fit: cover;
+}
+
+.products-jembatan .text-jembatan {
+    font-weight: 800;
+    color: #ff595a;
+    font-family: "Geologica" !important;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 26px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .products-jembatan p {
+        font-size: 14px !important;
+    }
+}
+
+.color .text-color {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff595a !important;
+    font-family: "Geologica" !important;
+}
+
+.pallete {
+    width: auto;
+    height: auto;
+}
+
+.pallete .bg-white {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+}
+
+.pallete img {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+}
+
+.contact h2 {
+    font-weight: 800;
+}
+
+.contact .map {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+    padding-top: 56.25%;
+}
+  
+.contact .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact .title-content {
+    font-weight: 800;
+    font-size: 28px;
+    color: #ff595a !important;
+    font-family: "Geologica" !important;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 26px !important;
+    }
+}
+
+.contact .text-content {
+    color: #efe0ca;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 14px !important;
+    }
+}
+
+.contact .button-wa {
+    display: block;
+    width: 200px;
+    background: #4eaf97;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.contact i {
+    font-size: 30px;
+}
+
+
